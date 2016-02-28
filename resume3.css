@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+html,body{height: 100%;}
+ol,ul{list-style: none;}
+a{
+    text-decoration: none;
+    color: white;
+}
+.page{
+    height: 100%;
+}
+.page>main{
+    height: 100%;
+}
+.page>main>section{
+    height: 100%;
+    background: url("img/xk2bba7.jpg")repeat-y fixed;
+    background-size: cover;
+    z-index: 1;
+   /* box-shadow: inset 0 3px 3px hsla(0, 0%, 0%, 0.25);*/
+}
+#one,#two,#three,#four,#fire,#six{
+    height: 100%;
+}
+#one .content{
+    background-color: #ff5738;
+    width: 920px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    left: 0;
+    z-index: 2;
+}
+#one>.content>img{
+    width: 920px;
+    height: 480px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    opacity: 0.9;
+}
+#two .content{
+    background-color: greenyellow;
+    width: 920px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    z-index: 2;
+}
+#two>.content>img{
+    width: 920px;
+    height: 480px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    opacity: 0.9;
+}
+#three .content{
+    background-color: mediumseagreen;
+    width: 920px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    z-index: 2;
+}
+#three>.content>img{
+    width: 920px;
+    height: 480px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    opacity: 0.9;
+}
+#four .content{
+    background-color: lightseagreen;
+    width: 920px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    z-index: 2;
+}
+#four>.content>img{
+    width: 920px;
+    height: 480px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    opacity: 0.9;
+}
+#fire .content{
+    background-color: red;
+    width: 920px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    z-index: 2;
+}
+#fire>.content>img{
+    width: 920px;
+    height: 480px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    opacity: 0.9;
+}
+#six .content{
+    background-color: orangered;
+    width: 920px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    z-index: 2;
+}
+#six>.content>img{
+    width: 920px;
+    height: 480px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    opacity: 0.9;
+}
